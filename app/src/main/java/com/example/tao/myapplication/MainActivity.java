@@ -11,7 +11,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
-    @BindView(R.id.txView)TextView userNameView;
+    @BindView(R.id.nameView)TextView userNameView;
     @BindView(R.id.hpView)TextView hpText;
     @BindView(R.id.attView)TextView attkView;
     @BindView(R.id.defView)TextView defView;
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 viewFlipper.setDisplayedChild(1);
+                hpText.setText("HP: 90");
             }
         });
     }
