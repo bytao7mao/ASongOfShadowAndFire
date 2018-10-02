@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/taozen_meditating"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/prologue_part2"
+                    android:src="@drawable/taozen_meditating"/>
+
+                <TextView
+                    android:id="@+id/prologue_part5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@id/taozen_meditating"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/prologue_part5"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/activity_main_text_view_text_size" />
+
+                <Button
+                    android:id="@+id/continueBtnFromPrologue5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/prologue_part5"
+                    android:text="continue"/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>

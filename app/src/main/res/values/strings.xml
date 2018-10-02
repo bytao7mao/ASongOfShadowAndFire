@@ -1,3 +1,198 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="userName">Hello %s!</string>
+
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer
+        took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like
+        Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="text_first_layout">
+    n the old days of the Earth,
+    humanity lived in peace
+    subduing everything before
+    them, even the great Titans …
+    \n
+    Satori, God of enlightment felt his "aloneness" and
+    he mated with his own shadow, an eternal darkness
+    producing hundreds of Titans.
+    \n
+    Fire Dinasty is estabilished by the best warrior among titans, the
+    Pyromi, which is known also as being the cruelest amongst them.
+    Pyromi forced his sister Heathera to marry him
+    and enslaved all humans and fire mages.
+    He also killed every children that Heathera was about to give birth.
+    While Heathera is pregnant with her last son Davion,
+    he is growing ten times
+    faster than normal due to the miraculous dharma
+    that he inherits from his ancestors.
+    In an enraged moment, Pyromi approaches Heathera
+    with a scythe to kill his last son,
+    but Davion senses that and get out from
+    inside his mother, took the scythe from his father\'s hands
+    and cuts off his head.</string>
+    <string name="prologue_part2">
+    \n
+    Seven years later,a triumphant Davion becomes king
+    of the Fire Dinasty in 9105-ET,
+    frees all fire mages and swear to protect humans.
+    \n
+    People of Fire Dinasty are seekers of the truth but are also
+    eager for growing in power, so in order to achieve this
+    their quest is to
+    search for their true maker … the god above Satori.
+    \n
+    For now they only know that their creator is Satori,
+    but they are not satisfied with this since Satori could
+    not offer to them more power.
+    \n
+    Titans, the divine beings, unleashed war and chaos on earth,
+    so Fire Mages, people of the Fire Dinasty
+    turned against their creators to restore
+    order and peace for humans.
+    In the beginnings of the war, Titans killed almost all
+    Fire Mages, but when Davion saw all of this happenings,
+    he entered in enraged mode and transformed himself
+    into a Dragon!
+    </string>
+    <string name="prologue_part2b">\n
+    This is his first and the last time when Davion is able to
+    transforms himself
+    into a dragon.
+    Eventually Davion and his Dinasty prevailed and
+    defeated most of the Titans.
+    \n
+    The result conflict is known as Pyromachy and marks the
+    ending of Titans Era and the beginning of a new era.</string>
+    <string name="prologue_part3">
+    \n\n
+Satori, God of enlightment is thinking that he has failed to
+humans because of Pyromi and
+decides to give humanity a gift
+in order to regain their popularity,
+his son, Augustus, which created the Awakening Portal,
+and shortly after, he became the Emperor of the Satoric Empire.
+But humans worship Davion now and they are not considering
+Augustus to be worthy of worshiping yet.
+\n\n
+Awakening Portal is not a nice place though, some
+of the portal effect\'s are: to turn into a black hole
+only for the person that watches into the portal,
+if it senses negative dharma, the other effect of the portal
+offers the chance to travel through the universe with the body and the mind,
+but the traveler will have the body in two places, in portal and where he decides to travel.
+Till now only one being survived in the portal, a fire mage named Davion.
+    \n\n</string>
+    <string name="prologue_part4">
+    Davion helped in the beginnings, the blacksmiths to forge
+swords enchanted by the wild fire from the
+Aldebaran - the giant star located 65 light years away
+in the constellation of Taurus.
+He managed to get the fire from the star
+while they being present in the Awakening Portal,
+meditating and transform
+himself into pure fire, altough hundreds of Fire Mages
+tried to travel in the awakening portal before him, but
+all of them died in their own blackholes.
+\n\n
+Unfortunately, Fire Mages along with Davion slowly forgot
+their maker (Satori) as their pride led to evil desires,
+So they turned into beings driven by hunger of power
+as they assasinated their great Emperor Augustus in 63-AT,
+When Humans saw all of this, they turn their faith
+to their creator Satori.
+\n\n</string>
+    <string name="prologue_part5">
+    As the sons of Satori, the fire mages increased
+in wickedness, the Humans stood
+against them with great faith in their creator,
+but only a few managed to survive in the
+great confrontation shortly after Augustus\'s death,
+as Humans are weaker than the fire mages.
+\n\n
+Stories turned to legend as one unique sword to
+believed to be an eternal light grow into infamy.
+Said to be forged by the hand of God Satori
+himself, many believed that
+it gave the wielder great victories and a chance for
+immortality, also it could destroy any fire sword made by Davion
+but only a few would know the truth …
+Davion tried to hold the Satori\'s sword but his hand was evaporated.
+\n</string>
+    <string name="prologue_part6">Since Davion is not worthy to wield Satori\'s sword
+any humans believed that the chosen one for the swords
+could have been Augustus, gossips
+about Augustus being brought back to life are circulating but
+nobody knows the truth …
+\n
+</string><string name="prologue_part6b">As Davion the fire mage, lost his right hand, he starts to train
+his left hand to wield a sword.
+Meanwhile between humans, there is a true believer
+of Satori that regained many favors from the God
+through meditation.
+He thinks that he can resurrect Augustus by
+going back in the time. Awakening portal
+can help him to do this but he can also lose
+his life trying to do so.</string>
+    <string name="prologue_part6c">He is known by the name of Taozen, the only
+human can resist and stay near the awakening Portal
+and not die unlike other humans. Altough he thinks
+that is not ready to step into the portal yet.
+His dharma is special among humans, he was always
+considerated special because during the Pyromachy,
+the war against Titans, he fought alongside
+firemages and proved himself worthy in battle.</string>
+    <string name="prologue_bottom">*AT - After Titans Era *BT - Before Titans Era *ET - Titans Era</string>
+    <!--Main activity buttons-->
+    <string name="new_game_button">New Game</string>
+    <string name="sale_button">Sale on Now!</string>
+    <string name="sign_up_login_in_button">Sign Up / Log In</string>
+    <string name="options_button">Options</string>
+    <!--Options activity buttons-->
+    <string name="music_selection_button">Music select</string>
+    <string name="music_volume_button">Music volume</string>
+    <string name="about_button">About</string>
+    <string name="credits_button">Credits</string>
+    <string name="TitleOfChapter">Chapter 1:\n Death Of The Emperor</string>
+    <string name="subTitle_page_one">Last Night In Prison.</string>
+    <string name="page_one_text">In this chapter you will play as a warrior.
+        Till now you had no name, but now you will be named as: %s.\n\n
+        This is a game based on user choices. In this adventure your choices matter.
+        Your life depends on your choices, read and make choices. Good Luck !</string>
+    <string name="subTitle_page_two">You\'re in jail !</string>
+    <string name="page_two_text">You woke up in jail … thinking about how did you end up here !
+        \n\nMeanwhile two prisoners are talking from the other side:
+        Hmm but how we can escape the prison, i am wondering how Targa escaped 70 years ago … .
+    But this does not matter now … all that matter is how to get out of jail !
+    You hear some footsteps, guardian with the Emperor approaches and open the bars of your jail.
+    \n\nEmperor: Hmm … wait here, i saw this man in my dreams … you\'re %s right ?
+    \n\nGuardian: Step back you scum!! We won\'t hesitate to kill you!
+    \n\nEmperor: Why are you in jail ? … hmm but perhaps it doesn\'t matter.
+    Maybe the Gods have put you here so that we may meet.
+    \n\nGuardian: Sir, we need to hurry … Stay out of our way scum !</string>
+    <string name="subTitle_page_three">Silently.</string>
+    <string name="page_three_text">While you\'re pursuing them and finally reach them,
+        the guardians and the Emperor are fighting several black monks with fire swords, what are you gonna\' do now ?
+    \nAfter fight the guardians see you and says:
+    \nGuardian: This is my last warning prisoner, stay right here and stop following us!
+    You will either get killed by the black monks or either i will kill you with my hands
+    if i see you one more time!
+    \nA wall is opening while the Emperor chanting some strange words and shortly after they enter in the opening of the wall.</string>
+    <string name="subTitle_page_four">Following again.</string>
+    <string name="page_four_text">You decide to follow them again, and this time they are fighting
+    against black assasins with some laser swords, while you are afraid to be seen by the guardians,
+    one of them is killed by black assasins and the fight is over.
+    \nLast Guardian: Damn it\'s that prisoner again, he might be working with the assasins. Kill Him!
+    \nEmperor: No, he is not one of them, he can help us, he must help us.
+        \nEmperor approaches you and says: they cannot understand what i have seen,
+    i have seen the future, the Oblivion, but your choices from now on will decide if
+    the balance will outcome the Oblivion or not.
+    \n\nCan you tell me what is your birth sign ?</string>
+    <string name="subTitle_page_five">Deciding Future.</string>
+    <string name="page_five_text">ok</string>
+    <string name="theLoverString">Use the Lover\'s charm to paralyze your opponent so you can run away from battle, costs 80 fatigue</string>
+    <string name="theSerpentString">Casting this in the future will cure yourself. Casting this spell costs 50 fatigue</string>
+    <string name="theLadyString">Use the blessing of the Lady to double your attack damage for one entire chapter.</string>
 </resources>

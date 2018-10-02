@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#274a76">
+
+
+    <ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/vf_prologue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <include
+            android:id="@+id/part1"
+            layout="@layout/prologue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/part2"
+            layout="@layout/prologue3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/part3"
+            layout="@layout/prologue4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/part4"
+            layout="@layout/prologue5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <include
+            android:id="@+id/part5"
+            layout="@layout/prologue6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <include
+            android:id="@+id/part6"
+            layout="@layout/prologue7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </ViewFlipper>
+
+</RelativeLayout>

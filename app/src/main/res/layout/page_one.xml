@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleChapterTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="@string/TitleOfChapter" />
+
+            <TextView
+                android:id="@+id/subTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:text="@string/subTitle_page_one"/>
+
+            <TextView
+                android:id="@+id/firstTv"
+                android:paddingTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="480dp"
+                android:src="@drawable/map"/>
+
+            <Button
+                android:id="@+id/toPageTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstTv"
+                android:layout_gravity="center_horizontal"
+                android:text="next" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/theSerpent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Serpent" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/theSerpent"
+                    android:text="@string/theSerpentString"/>
+
+                <Button
+                    android:id="@+id/theLover"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Lover" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/theLover"
+                    android:text="@string/theLoverString"/>
+                <Button
+                    android:id="@+id/theLady"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Lady" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/theLady"
+                    android:text="@string/theLadyString"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
