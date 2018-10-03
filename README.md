@@ -6,12 +6,11 @@
 [![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
 [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Naereen/)
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
-
 <br/>
-#A Song Of Shadows And Fire
 
-The project is using: 
+# A Song Of Shadows And Fire
 
+The project is using the following libraries: Butterknife, droidsonroids.
 
 ## License :scroll:
 This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details
