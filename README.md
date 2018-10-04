@@ -28,3 +28,5 @@ The project is using the following libraries: Butterknife, droidsonroids.
     limitations under the License.
 
 See the [LICENSE](LICENSE) file for further details.
+
+<br><img width="250" src="assets/code.jpg" alt="yes we code" />
