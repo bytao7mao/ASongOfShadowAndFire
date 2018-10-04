@@ -26,6 +26,5 @@ The project is using the following libraries: Butterknife, droidsonroids.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-    
-    see the [LICENSE](LICENSE) file for further details.
 
+See the [LICENSE](LICENSE) file for further details.
