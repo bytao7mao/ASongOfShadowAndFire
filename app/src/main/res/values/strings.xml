@@ -11,15 +11,17 @@
         Aldus PageMaker including versions of Lorem Ipsum.</string>
     <string name="text_first_layout">
     n the old days of the Earth,
-    humanity lived in peace
-    subduing everything before
+    humanity lived in peace, preaching their creator Satori and
+    achieving to subdue everything before
     them, even the great Titans …
     \n
     Satori, God of enlightment felt his "aloneness" and
     he mated with his own shadow, an eternal darkness
     producing hundreds of Titans.
     \n
-    Fire Dinasty is estabilished by the best warrior among titans, the
+    Now, 5000 years has passed till then.
+    It is the year 9003-ET, in the era of Titans,
+    fire Dinasty is estabilished by the best warrior among titans, the
     Pyromi, which is known also as being the cruelest amongst them.
     Pyromi forced his sister Heathera to marry him
     and enslaved all humans and fire mages.
@@ -32,42 +34,59 @@
     with a scythe to kill his last son,
     but Davion senses that and get out from
     inside his mother, took the scythe from his father\'s hands
-    and cuts off his head.</string>
-    <string name="prologue_part2">
-    \n
-    Seven years later,a triumphant Davion becomes king
-    of the Fire Dinasty in 9105-ET,
-    frees all fire mages and swear to protect humans.
-    \n
-    People of Fire Dinasty are seekers of the truth but are also
-    eager for growing in power, so in order to achieve this
-    their quest is to
-    search for their true maker … the god above Satori.
-    \n
-    For now they only know that their creator is Satori,
-    but they are not satisfied with this since Satori could
-    not offer to them more power.
-    \n
-    Titans, the divine beings, unleashed war and chaos on earth,
-    so Fire Mages, people of the Fire Dinasty
-    turned against their creators to restore
-    order and peace for humans.
-    In the beginnings of the war, Titans killed almost all
-    Fire Mages, but when Davion saw all of this happenings,
-    he entered in enraged mode and transformed himself
-    into a Dragon!
-    </string>
-    <string name="prologue_part2b">\n
-    This is his first and the last time when Davion is able to
-    transforms himself
-    into a dragon.
-    Eventually Davion and his Dinasty prevailed and
-    defeated most of the Titans.
-    \n
-    The result conflict is known as Pyromachy and marks the
-    ending of Titans Era and the beginning of a new era.</string>
-    <string name="prologue_part3">
-    \n\n
+    and cuts off his head.
+    Rumors are spreading between citizens of fire Dinasty that
+    Davion has been drinking dragon's blood to celebrate his father's death. </string>
+<string name="prologue_part2">
+\n
+Seven years later,a triumphant Davion becomes king
+of the Fire Dinasty in 9105-ET,
+frees all fire mages and swear to protect humans.
+\n
+People of Fire Dinasty are seekers of the truth but are also
+eager for growing in power, so in order to achieve this
+their quest is to
+search for their true maker … the god above Satori,
+which nobody knows who is.
+\n
+For now they only know that their creator is Satori,
+but they are not satisfied with this since Satori could
+not offer to them more power.
+\n
+Titans, the divine beings, unleashed war and chaos on earth,
+so Fire Mages, people of the Fire Dinasty
+turned against their creators to restore
+order and peace for humans.
+In the beginnings of the war, Titans killed almost all
+Fire Mages, but when Davion saw all of this happenings,
+he entered in enraged mode and transformed himself
+into a Dragon!
+\nn
+    When Davion turned into a dragon and flied above the battlefield,
+    day turned into night, as his shadow covered the light of the sun 
+    to shine over them.
+    Now only the dragon's fire attacks would bring light to the 
+    battlefield but also death upon them.
+    The war lasted eighteen years but Davion triumphed in the end.
+    He entitled himself as the king of titans, humans and fire mages,
+but he banished his race the remaining titans from the fire Dinasty and Satoric Empire,
+and restored order and peace between them, for now.
+After he turned into normal form he was not the same anymore ...
+he become changed, he depicted an uncontrolable rage,
+became unreasonable,lost his calm, wisdom but his strength remained the same.
+
+</string>
+<string name="prologue_part2b">\n
+This is his first and the last time when Davion is able to
+transforms himself
+into a dragon.
+Eventually Davion and his Dinasty prevailed and
+defeated most of the Titans.
+\n
+The result conflict is known as Pyromachy and marks the
+ending of Titans Era and the beginning of a new era.</string>
+<string name="prologue_part3">
+\n\n
 Satori, God of enlightment is thinking that he has failed to
 humans because of Pyromi and
 decides to give humanity a gift
@@ -76,6 +95,9 @@ his son, Augustus, which created the Awakening Portal,
 and shortly after, he became the Emperor of the Satoric Empire.
 But humans worship Davion now and they are not considering
 Augustus to be worthy of worshiping yet.
+Still, Augustus is considered being due to Satori,
+but also proved himself by healing several ill humans,
+and resurection of a few.
 \n\n
 Awakening Portal is not a nice place though, some
 of the portal effect\'s are: to turn into a black hole
@@ -84,9 +106,9 @@ if it senses negative dharma, the other effect of the portal
 offers the chance to travel through the universe with the body and the mind,
 but the traveler will have the body in two places, in portal and where he decides to travel.
 Till now only one being survived in the portal, a fire mage named Davion.
-    \n\n</string>
-    <string name="prologue_part4">
-    Davion helped in the beginnings, the blacksmiths to forge
+\n\n</string>
+<string name="prologue_part4">
+Davion helped in the beginnings, the blacksmiths to forge
 swords enchanted by the wild fire from the
 Aldebaran - the giant star located 65 light years away
 in the constellation of Taurus.
@@ -104,10 +126,15 @@ as they assasinated their great Emperor Augustus in 63-AT,
 When Humans saw all of this, they turn their faith
 to their creator Satori.
 \n\n</string>
-    <string name="prologue_part5">
-    As the sons of Satori, the fire mages increased
+<string name="prologue_part5">
+Davion fear that he could resurect his father, Pyromi
+so he make plans with the most powerful between
+fire mages to assasinate Augustus in order
+to prevent this to happen, this demonstrates that
+Davion has still some reason kept in him.
+As the sons of Satori, the fire mages increased
 in wickedness, the Humans stood
-against them with great faith in their creator,
+against them with great faith in their creator and Augustus,
 but only a few managed to survive in the
 great confrontation shortly after Augustus\'s death,
 as Humans are weaker than the fire mages.
@@ -121,22 +148,48 @@ immortality, also it could destroy any fire sword made by Davion
 but only a few would know the truth …
 Davion tried to hold the Satori\'s sword but his hand was evaporated.
 \n</string>
-    <string name="prologue_part6">Since Davion is not worthy to wield Satori\'s sword
+<string name="prologue_part6">Since Davion is not worthy to wield Satori\'s sword
 any humans believed that the chosen one for the swords
 could have been Augustus, gossips
 about Augustus being brought back to life are circulating but
 nobody knows the truth …
 \n
-</string><string name="prologue_part6b">As Davion the fire mage, lost his right hand, he starts to train
-his left hand to wield a sword.
+</string><string name="prologue_part6b">As Davion the fire mage, lost his right hand,
+he starts to train his left hand to manipulate flames in the shape of a sword.
 Meanwhile between humans, there is a true believer
 of Satori that regained many favors from the God
-through meditation.
-He thinks that he can resurrect Augustus by
+through meditation, but people are seeing him
+only at night and there are believers that he
+could be a vampire because he is 300 years old
+and still looks young, he is known by the name of Taozen,
+long white hair, very calm and patient,
+
+Davion travels with a boat to search for a sword trainer,
+he stops on an island full of fog and cold, the island
+looks like it is from another planet, but he decides anyway
+to continue to search further for a master in the art of swords,
+but on his way Taozen stops him with the following words.
+"You, i saw you in my dreams, you are the slayer of your own destiny ..."
+His eyes are grey, startingly dark in such pale face.
+Davion stopped for a few seconds to think about what Taozen said to him,
+but Davion is thinking that he is ill and decides to ignore him.
+His pupils were pinpoints, burning black and they reached right into Davion and
+weighted the soul inside him. The gray around them seemed alive
+moving, like fog on the river on a dark night, when the trees vanish
+and the lights vanish and there is nothing in the world but his boat and
+the river and the fog.
+
+Altough Davion being in a rush and also driven by his mad ego and
+ignores Taozen with the following words. "I don't have time to help beggars...",
+and push him away, but Taozen
+respond shortly. "We shall meet again, and then you will be awoke from this dream",
+but Davion chose to ignore him again and continue his quest to find the sword trainer.
+
+Taozen thinks that he can resurrect Augustus by
 going back in the time. Awakening portal
 can help him to do this but he can also lose
 his life trying to do so.</string>
-    <string name="prologue_part6c">He is known by the name of Taozen, the only
+<string name="prologue_part6c">Taozen, is the only
 human can resist and stay near the awakening Portal
 and not die unlike other humans. Altough he thinks
 that is not ready to step into the portal yet.
@@ -144,7 +197,8 @@ His dharma is special among humans, he was always
 considerated special because during the Pyromachy,
 the war against Titans, he fought alongside
 firemages and proved himself worthy in battle.</string>
-    <string name="prologue_bottom">*AT - After Titans Era *BT - Before Titans Era *ET - Titans Era</string>
+
+<string name="prologue_bottom">*AT - After Titans Era *BT - Before Titans Era *ET - Titans Era</string>
     <!--Main activity buttons-->
     <string name="new_game_button">New Game</string>
     <string name="sale_button">Sale on Now!</string>
