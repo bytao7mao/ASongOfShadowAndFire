@@ -35,9 +35,9 @@ public class OptionsActivity extends AppCompatActivity {
         );
 
         // Get the widgets reference from XML layout
-        mRelativeLayout = (RelativeLayout) findViewById(R.id.rl);
-        mSeekBar = (SeekBar) findViewById(R.id.seek_bar);
-        mTextView = (TextView) findViewById(R.id.tv);
+        mRelativeLayout = findViewById(R.id.rl);
+        mSeekBar = findViewById(R.id.seek_bar);
+        mTextView = findViewById(R.id.tv);
 
         // Set the SeekBar initial progress from screen current brightness
         int brightness = getScreenBrightness();

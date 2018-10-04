@@ -18,7 +18,7 @@
                 android:layout_height="240dp"
                 android:layout_marginTop="30dp"
                 android:layout_below="@id/prologue_part2"
-                android:src="@drawable/firemaget"/>
+                android:src="@drawable/portal"/>
 
     <TextView
         android:id="@+id/prologue_part3"

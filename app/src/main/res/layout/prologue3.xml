@@ -17,7 +17,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="240dp"
                 android:layout_marginTop="30dp"
-                android:src="@drawable/portal"/>
+                android:src="@drawable/titans"/>
 
             <TextView
                 android:id="@+id/prologue_part2"
@@ -36,7 +36,7 @@
                 android:layout_height="240dp"
                 android:layout_marginTop="30dp"
                 android:layout_below="@id/prologue_part2"
-                android:src="@drawable/dk"/>
+                android:src="@drawable/davion_war_titan"/>
 
             <TextView
                 android:id="@+id/prologue_part2b"

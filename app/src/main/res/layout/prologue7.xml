@@ -12,14 +12,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <pl.droidsonroids.gif.GifImageView
+            <ImageView
                 android:id="@+id/giff"
-                android:layout_marginTop="20dp"
-                android:layout_width="160dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="20dp"
-                android:layout_height="260dp"
-                android:src="@raw/lightsword" />
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/satori"/>
 
             <TextView
                 android:id="@+id/prologue_part6"
@@ -38,7 +36,7 @@
                 android:layout_height="240dp"
                 android:layout_marginTop="10dp"
                 android:layout_below="@id/prologue_part6"
-                android:src="@drawable/lefthand"/>
+                android:src="@drawable/travel"/>
 
             <TextView
                 android:id="@+id/prologue_part6b"
@@ -57,7 +55,7 @@
                 android:layout_height="240dp"
                 android:layout_marginTop="10dp"
                 android:layout_below="@id/prologue_part6b"
-                android:src="@drawable/divine"/>
+                android:src="@drawable/timeportal"/>
 
             <TextView
                 android:id="@+id/prologue_part6c"

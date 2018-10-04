@@ -103,6 +103,7 @@
         android:focusableInTouchMode="true"
         android:hint="Your Name Here"
         android:inputType="textCapWords"
+        android:textColor="#fff"
         android:maxEms="10"
         android:minEms="7" />
 </RelativeLayout>
