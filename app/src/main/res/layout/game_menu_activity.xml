@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:padding="@dimen/activity_vertical_margin"
-    tools:context=".StartGameMenuActivity">
+    tools:context=".GameMenuActivity">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -16,11 +16,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        <!--<ImageView-->
-            <!--android:id="@+id/firstEncounter"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="300dp"-->
-            <!--android:src="@drawable/first_encounter_emperor"/>-->
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/giff"
@@ -36,10 +31,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="30dp"
-                    android:padding="@dimen/activity_vertical_margin"
                     android:text="@string/lorem_ipsum"
                     android:textAlignment="center"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="-80dp"
                     android:layout_below="@id/giff"
                     android:textSize="@dimen/activity_main_text_view_text_size" />
         </RelativeLayout>
@@ -101,7 +95,7 @@
         android:gravity="center"
         android:windowSoftInputMode="stateHidden"
         android:focusableInTouchMode="true"
-        android:hint="Your Name Here"
+        android:hint="Give a name to your god"
         android:inputType="textCapWords"
         android:textColor="#fff"
         android:maxEms="10"

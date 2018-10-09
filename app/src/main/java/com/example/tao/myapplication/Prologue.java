@@ -1,6 +1,7 @@
 package com.example.tao.myapplication;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -27,6 +28,14 @@ public class Prologue extends AppCompatActivity {
     Animation slideupAnim;
 
     Handler handler = new Handler();
+    Resources res;
+    String god_name="";
+    String god_name2 ="";
+    String titan_demigod_2b="";
+    String god_name_for_part_3 ="";
+    String god_name_for_part_4 ="";
+    String god_name_for_part_5 ="";
+    String god_name_for_part_6 = "";
 
     @BindView(R.id.prologuePart1)TextView prologuePart1;
     @BindView(R.id.firstLetter)TextView firstLetter;
@@ -47,8 +56,12 @@ public class Prologue extends AppCompatActivity {
     @BindView(R.id.prologue_part6b)TextView prologuePart6b;
     @BindView(R.id.prologue_part6c)TextView prologuePart6c;
 
-    String userName = "";
     private static final String NAME = "userName";
+    private static final String TITAN = "TITAN";
+    private static final String DEMIGOD = "DEMIGOD";
+    String userName = "";
+    String titan = "";
+    String demigod = "";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -58,6 +71,53 @@ public class Prologue extends AppCompatActivity {
 
         backgroundMusic = MediaPlayer.create(Prologue.this, R.raw.naruto);
         backgroundMusic2 = MediaPlayer.create(Prologue.this, R.raw.shippudenfight);
+        backgroundMusic.seekTo(1500);
+        backgroundMusic.start();
+        //getting bundle from last main menu
+        Bundle lastIntent = getIntent().getExtras();
+        if(lastIntent != null){
+            userName = lastIntent.getString(NAME);
+            titan = lastIntent.getString(TITAN);
+            demigod = lastIntent.getString(DEMIGOD);
+        }
+
+        //settting the choices of the user with Resources class
+        res = getResources();
+        if (titan!=null){
+            //titan: 2,4,5,6,7
+            //username: 1,3
+            god_name = res.getString(R.string.text_first_layout,
+                    userName, titan, userName, titan, titan, titan, titan);
+            god_name2 = res.getString(R.string.prologue_part2,
+                    userName, userName, userName, titan, titan, titan);
+            titan_demigod_2b = res.getString(R.string.prologue_part2b,
+                    titan);
+
+        } else if (demigod!=null){
+            //demigod: 2,4,5,6,7
+            //username: 1,3
+            god_name = res.getString(R.string.text_first_layout,
+                    userName, demigod, userName, demigod, demigod, demigod, demigod);
+            god_name2 = res.getString(R.string.prologue_part2,
+                    userName, userName, userName, demigod, demigod, demigod);
+            titan_demigod_2b = res.getString(R.string.prologue_part2b,
+                    demigod);
+        }
+        god_name_for_part_3 = res.getString(R.string.prologue_part3,
+                userName, userName, userName, userName);
+        god_name_for_part_4 = res.getString(R.string.prologue_part4,
+                userName, userName);
+        god_name_for_part_5 = res.getString(R.string.prologue_part5,
+                userName, userName, userName);
+        god_name_for_part_6 = res.getString(R.string.prologue_part6,
+                userName, userName);
+        prologuePart1.setText(god_name);
+        prologuePart2.setText(god_name2);
+        prologuePart2b.setText(titan_demigod_2b);
+        prologuePart3.setText(god_name_for_part_3);
+        prologuePart4.setText(god_name_for_part_4);
+        prologuePart5.setText(god_name_for_part_5);
+        prologuePart6.setText(god_name_for_part_6);
 
         if (getApplicationContext() != null) {
             Typeface typefaceBoldItalic = Typeface.createFromAsset
@@ -76,12 +136,6 @@ public class Prologue extends AppCompatActivity {
             prologuePart2b.setTypeface(typefaceSimpleItalic);
             prologuePart6b.setTypeface(typefaceSimpleItalic);
             prologuePart6c.setTypeface(typefaceSimpleItalic);
-        }
-
-        //getting bundle from last main menu
-        Bundle lastIntent = getIntent().getExtras();
-        if(lastIntent != null){
-            userName = lastIntent.getString(NAME);
         }
 
         slideupAnim =
@@ -158,9 +212,6 @@ public class Prologue extends AppCompatActivity {
         continueToPrologue7Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                prologuePart6.startAnimation(slideupAnim);
-                prologuePart2b.startAnimation(slideupAnim);
-                prologuePart6b.startAnimation(slideupAnim);
                 prologuePart6c.startAnimation(slideupAnim);
                 backgroundMusic.stop();
                 handler.postDelayed(new Runnable() {
@@ -168,9 +219,9 @@ public class Prologue extends AppCompatActivity {
                     public void run() {
                         backgroundMusic2.seekTo(110000);
                         backgroundMusic2.start();
-                        Intent intent = new Intent(Prologue.this, WarriorChoiceActivity.class);
-                        intent.putExtra(NAME, userName);
-                        startActivity(intent);
+
+
+                        //TODO: add new intent
                     }
                 },1000);
 

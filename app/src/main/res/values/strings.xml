@@ -2,6 +2,11 @@
     <string name="app_name">My Application</string>
     <string name="userName">Hello %s!</string>
 
+    <string name="question_1">"What do you want to create ? Titans or Demigods ?"</string>
+    <string name="question_2">"Heather prays at you to save her child, what do you do ?"</string>
+    <string name="question_3">"Davion feels that he can't win the war against Titans/Demigods
+        and ask for your help with a pray, what do you choose to do ?"</string>
+
     <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer
         took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
@@ -11,21 +16,21 @@
         Aldus PageMaker including versions of Lorem Ipsum.</string>
     <string name="text_first_layout">
     n the old days of the Earth,
-    humanity lived in peace, preaching their creator Satori and
+    humanity lived in peace, preaching their creator %s and
     achieving to subdue everything before
-    them, even the great Titans …
+    them, even the great %s …
     \n
-    In the beginnings Satori, God of enlightment felt his "aloneness" and
+    In the beginnings %s, God of enlightment felt his "aloneness" and
     he mated with his own shadow, an eternal darkness
-    producing hundreds of Titans.
+    producing hundreds of %s.
     \n
     Now, 5023 years has passed till then.
-    It is the year 5023-ET, in the era of Titans,
+    It is the year 5023-ET, in the era of %s,
     fire Dinasty is estabilished in the fire lands 
-        by the strongest warrior among titans,
+        by the strongest warrior among %s,
     Pyromi, which is known also as being the cruelest amongst them.
     Pyromi forced his sister Heathera to marry him
-    and enslaved all humans and fire mages but not titans.
+    and enslaved all humans and fire mages but not %s.
     He also killed every children that Heathera was about to give birth.
     While Heathera is pregnant with her last son Davion,
     he has an accelaration in growing ten times
@@ -46,20 +51,20 @@ frees all fire mages and swear to protect them.
 \n
 People of Fire Dinasty are seekers of the truth and unknown but are also
 eager for growing in power, so in order to achieve this their quest is to
-search for their true maker … the god above Satori,
+search for their true maker … the god above %s,
 which nobody knows who is for now …
 \n
-For now they only know that their creator is Satori,
-but they are not satisfied with this since Satori could
+For now they only know that their creator is %s,
+but they are not satisfied with this since %s could
 not offer to them more power.
 \n
-In the year 5110-ET, Titans, the divine beings, unleashed war and chaos on earth,
+In the year 5110-ET, %s, the divine beings, unleashed war and chaos on earth,
 so Fire Mages, people of the Fire Dinasty
 turned against their creators to restore
 order and peace in the lands.
-In the beginnings of the war, Titans killed almost all
+In the beginnings of the war, %s killed almost all
 Fire Mages, but when Davion saw Heathera, his mother 
-    killed by the hand of the titans,
+    killed by the hand of the %s,
 his hatred grew so much that transformed himself into a Dragon!
 \n\n
 </string>
@@ -74,31 +79,31 @@ When Davion turned into a dragon and flied above the battlefield,
 but he banished his creators, the titans from the fire Dinasty and Satoric Empire,
 and restored order and peace between them.
 After he turned into normal form he was not the same anymore …
-he become changed, he depicted an uncontrolable rage,
+he become changed, he depicted an uncontrollable rage,
 became unreasonable,lost his calm, wisdom but his strength remained the same.
 \n
 This is the first time when Davion is able to
 transforms himself into a dragon.
 \n
 The result conflict is known as Davomachy and marks the
-ending of Titans Era and the beginning of a new era.</string>
+ending of %s Era and the beginning of a new era.</string>
 <string name="prologue_part3">
 \n\n
-In the lands of Satori Empire, Augustus appear as a gift from Satori.
+In the lands of Satoric Empire, Augustus appear as a gift from %s.
     God of enlightment is thinking that he has failed to
 humans because of Pyromi and
 decides to give humanity a gift
 in order to regain their popularity,
 his son, Augustus, which created the Awakening Portal,
-and shortly after, he became the Emperor of the Satoric Empire shortly after
-    Kain the Last Emperor of the Satoric Empire, he dies in the conflict known
+and shortly after, he became the Emperor of the %s Empire shortly after
+    Kain the Last Emperor of the %s Empire, he dies in the conflict known
     by the name of Davomachy killed by a titan.
 Humans worship Davion now and they are not considering
 Augustus to be worthy of worshiping, yet he is their Emperor, their ruler.
 Still, Augustus begins to prove that he is worthy due to his preachings and 
     ability for peace, but he also proved himself by healing humans,
 and he also resurrected Taozen from the dead, which was killed by his brother Kain
-    in order to asure his reign to the throne of Satoric Empire 50 years ago.
+    in order to asure his reign to the throne of %s Empire 50 years ago.
 \n\n
 Awakening Portal is not a nice place though, some
 of the portal effect\'s are: to turn into a black hole
@@ -121,11 +126,11 @@ tried to travel in the awakening portal before him, but
 all of them died in their own blackholes.
 \n\n
 Unfortunately, Fire Mages along with Davion slowly forgot
-their maker (Satori) as their pride led to evil desires,
+their maker (%s) as their pride led to evil desires,
 So they turned into beings driven by hunger of power
 as they assasinated their great Emperor Augustus in 63-AT,
 When Humans saw all of this, they turn their faith
-to their creator Satori.
+to their creator %s.
 \n\n</string>
 <string name="prologue_part5">
 Davion fears that Augustus could resurrect his father, Pyromi
@@ -133,7 +138,7 @@ so he make plans with the most powerful between
 fire mages to assasinate Augustus in order
 to prevent this to happen, this demonstrates that
 Davion has still some reason kept in him.
-As the sons of Satori, the fire mages increased
+As the sons of %s, the fire mages increased
 in wickedness, the Humans stood
 against them with great faith in their creator and Augustus,
 but only a few managed to survive in the
@@ -142,14 +147,14 @@ as Humans are weaker than the fire mages.
 \n\n
 Stories turned to legend as one unique sword to
 believed to be an eternal light grow into infamy.
-Said to be forged by the hand of God Satori
+Said to be forged by the hand of God %s
 himself, many believed that
 it gave the wielder great victories and a chance for
 immortality, also it could destroy any fire sword made by Davion
 but only a few would know the truth …
-Davion tried to hold the Satori\'s sword but his hand was evaporated.
+Davion tried to hold the %s\'s sword but his hand was evaporated.
 \n</string>
-<string name="prologue_part6">Since Davion is not worthy to wield Satori\'s sword
+<string name="prologue_part6">Since Davion is not worthy to wield %s\'s sword
 any humans believed that the chosen one for the swords
 could have been Augustus, gossips
 about Augustus being brought back to life are circulating but
@@ -157,7 +162,7 @@ nobody knows the truth …
     As Davion the fire mage, lost his right hand,
 he starts to train his left hand to manipulate flames in the shape of a sword.
 Meanwhile between humans, there is a true believer
-of Satori that regained many favors from the God
+of %s that regained many favors from the God
 through meditation, but people are seeing him
 only at night and there are believers that he
 could be a vampire because he is 300 years old
@@ -204,7 +209,7 @@ considerated special because during the Pyromachy,
 the war against Titans, he fought alongside
 firemages and proved himself worthy in battle.</string>
 
-<string name="prologue_bottom">*AT - After Titans Era *BT - Before Titans Era *ET - Titans Era</string>
+<string name="prologue_bottom">*AT - After Titans/Demigods Era *BT - Before Titans/Demigods Era *ET - Titans Era</string>
     <!--Main activity buttons-->
     <string name="new_game_button">New Game</string>
     <string name="sale_button">Sale on Now!</string>

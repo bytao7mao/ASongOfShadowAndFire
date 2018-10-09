@@ -18,15 +18,18 @@ import butterknife.ButterKnife;
  * Created by taoLen on 9/29/2018.
  */
 
-public class NewGame extends AppCompatActivity {
+public class NewGameActivity extends AppCompatActivity {
     @BindView(R.id.backBtn)Button backButton;
-    @BindView(R.id.mageChoice)Button mageBtnChoice;
+    @BindView(R.id.titansChoice)Button titanChoice;
     @BindView(R.id.userName)TextView tvUserName;
-    @BindView(R.id.knightChoice)TextView knightBtnChoice;
-    @BindView(R.id.rogueChoice)TextView rogueBtnChoice;
+    @BindView(R.id.demiGodChoice)TextView demiGodChoice;
 
     String userName = "";
     private static final String NAME = "userName";
+    private static final String TITAN = "TITAN";
+    private static final String DEMIGOD = "DEMIGOD";
+    String titan = "Titan";
+    String demigod = "DemiGod";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -42,9 +45,8 @@ public class NewGame extends AppCompatActivity {
         tvUserName.setText(userName);
 
         configureBackButton();
-        configureKnightOption();
-        configureMageOption();
-        configureRogueOption();
+        configureDemiGodOption();
+        configureTitanOption();
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -63,36 +65,29 @@ public class NewGame extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-    private void configureMageOption(){
-        mageBtnChoice.setOnClickListener(new View.OnClickListener() {
+    private void configureTitanOption(){
+        titanChoice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(NewGame.this, Prologue.class);
+                Intent intent = new Intent(NewGameActivity.this, Prologue.class);
                 intent.putExtra(NAME, userName);
+                intent.putExtra(TITAN, titan);
                 startActivity(intent);
             }
         });
     }
-    private void configureKnightOption(){
-        knightBtnChoice.setOnClickListener(new View.OnClickListener() {
+    private void configureDemiGodOption(){
+        demiGodChoice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(NewGame.this, WarriorChoiceActivity.class);
+                Intent intent = new Intent(NewGameActivity.this, Prologue.class);
                 intent.putExtra(NAME, userName);
+                intent.putExtra(DEMIGOD, demigod);
                 startActivity(intent);
             }
         });
     }
-    private void configureRogueOption(){
-        rogueBtnChoice.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(NewGame.this, RogueChoiceActivity.class);
-                intent.putExtra(NAME, userName);
-                startActivity(intent);
-            }
-        });
-    }
+
     private void configureBackButton(){
         backButton.setOnClickListener(new View.OnClickListener(){
             @Override
