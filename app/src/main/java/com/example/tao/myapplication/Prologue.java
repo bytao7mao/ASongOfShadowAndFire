@@ -2,12 +2,17 @@ package com.example.tao.myapplication;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -92,7 +97,6 @@ public class Prologue extends AppCompatActivity {
                     userName, userName, userName, titan, titan, titan);
             titan_demigod_2b = res.getString(R.string.prologue_part2b,
                     titan);
-
         } else if (demigod!=null){
             //demigod: 2,4,5,6,7
             //username: 1,3
@@ -111,9 +115,44 @@ public class Prologue extends AppCompatActivity {
                 userName, userName, userName);
         god_name_for_part_6 = res.getString(R.string.prologue_part6,
                 userName, userName);
-        prologuePart1.setText(god_name);
-        prologuePart2.setText(god_name2);
-        prologuePart2b.setText(titan_demigod_2b);
+
+
+        if (titan!=null){
+            prologuePart1.setText(god_name);
+            String repl = prologuePart1.getText().toString();
+            repl = repl.replaceAll(titan, "<font color='red'>"+titan+"</font>");
+            prologuePart1.setText(Html.fromHtml(repl));
+
+            prologuePart2.setText(god_name2);
+            String repl2 = prologuePart2.getText().toString();
+            repl2 = repl2.replaceAll(titan, "<font color='red'>"+titan+"</font>");
+            prologuePart2.setText(Html.fromHtml(repl2));
+
+            prologuePart2b.setText(titan_demigod_2b);
+            String repl3 = prologuePart2b.getText().toString();
+            repl3 = repl3.replaceAll(titan, "<font color='red'>"+titan+"</font>");
+            prologuePart2b.setText(Html.fromHtml(repl3));
+        } else if (demigod!=null){
+            prologuePart1.setText(god_name);
+            String repl = prologuePart1.getText().toString();
+            repl = repl.replaceAll(demigod, "<font color='red'>"+demigod+"</font>");
+            prologuePart1.setText(Html.fromHtml(repl));
+
+            prologuePart2.setText(god_name2);
+            String repl2 = prologuePart2.getText().toString();
+            repl2 = repl2.replaceAll(demigod, "<font color='red'>"+demigod+"</font>");
+            prologuePart2.setText(Html.fromHtml(repl2));
+
+            prologuePart2b.setText(titan_demigod_2b);
+            String repl3 = prologuePart2b.getText().toString();
+            repl3 = repl3.replaceAll(demigod, "<font color='red'>"+demigod+"</font>");
+            prologuePart2b.setText(Html.fromHtml(repl3));
+        }
+
+
+
+
+
         prologuePart3.setText(god_name_for_part_3);
         prologuePart4.setText(god_name_for_part_4);
         prologuePart5.setText(god_name_for_part_5);

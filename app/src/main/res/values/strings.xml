@@ -15,23 +15,35 @@
         Lorem Ipsum passages, and more recently with desktop publishing software like
         Aldus PageMaker including versions of Lorem Ipsum.</string>
     <string name="text_first_layout">
+    In the beginnings it was nothing … until Satori,
+    God of Awakening, is being created through the result
+    of a black hole and a white hole collision.
+    Although chances for this type of collisions are almost null
+    in this universe, Satori begins his work and creates the earth,
+    a planet were creatures like humans are living in peace.
     n the old days of the Earth,
     humanity lived in peace, preaching their creator %s and
     achieving to subdue everything before
     them, even the great %s …
     \n
-    In the beginnings %s, God of enlightment felt his "aloneness" and
+    In the old days, before humans, %s, God of Awakening felt his "aloneness" and
     he mated with his own shadow, an eternal darkness
     producing hundreds of %s.
     \n
-    Now, 5023 years has passed till then.
-    It is the year 5023-ET, in the era of %s,
-    fire Dinasty is estabilished in the fire lands 
+    Now, 50233 years has passed till then.
+    It is the year 50233-ET, in the era of %s,
+    fire Dinasty is estabilished in the fire lands
         by the strongest warrior among %s,
     Pyromi, which is known also as being the cruelest amongst them.
+    As he wanted to create an elite army of humans called the fire mages,
+    Pyromi took babies from their mother and bathed them in wine rather
+    than water to see the baby reaction, if the baby was weak, he became a slave,
+    but if the baby was strong, he would be trained in the arts of fire to became a fire mage.
+    (https://www.deviantart.com/feliciacano/art/Temple-for-Descent-78206158)
     Pyromi forced his sister Heathera to marry him
-    and enslaved all humans and fire mages but not %s.
-    He also killed every children that Heathera was about to give birth.
+    and enslaved all humans but not %s.
+    As the Oracle of the earth tells Pyromi that he will die by the hand of his unborn son,
+    Pyromi decides to kill every children that Heathera was about to give birth.
     While Heathera is pregnant with her last son Davion,
     he has an accelaration in growing ten times
     faster than normal due to the miraculous dharma
@@ -43,11 +55,11 @@
     and cuts off his head.
     Rumors are spreading between citizens of fire Dinasty that
     Davion has been drinking dragon\'s blood to celebrate his father\'s death. </string>
-<string name="prologue_part2">
+    <string name="prologue_part2">
 \n
-Two years later,a triumphant Davion becomes king
-of the Fire Dinasty in 5025-ET,
-frees all fire mages and swear to protect them.
+Two years later,a triumphant young Davion becomes king
+of the Fire Dinasty in 50253-ET,
+frees all humans and swear to protect them.
 \n
 People of Fire Dinasty are seekers of the truth and unknown but are also
 eager for growing in power, so in order to achieve this their quest is to
@@ -58,23 +70,23 @@ For now they only know that their creator is %s,
 but they are not satisfied with this since %s could
 not offer to them more power.
 \n
-In the year 5110-ET, %s, the divine beings, unleashed war and chaos on earth,
+In the year 51103-ET, %s, the divine beings, unleashed war and chaos on earth,
 so Fire Mages, people of the Fire Dinasty
 turned against their creators to restore
 order and peace in the lands.
 In the beginnings of the war, %s killed almost all
-Fire Mages, but when Davion saw Heathera, his mother 
+Fire Mages, but when Davion saw Heathera, his mother
     killed by the hand of the %s,
 his hatred grew so much that transformed himself into a Dragon!
 \n\n
 </string>
-<string name="prologue_part2b">
+    <string name="prologue_part2b">
 When Davion turned into a dragon and flied above the battlefield,
-    day turned into night, as his shadow blocked the light of the sun 
+    day turned into night, as his shadow from the wings blocked the sun
     to shine over them.
     Now only the dragon\'s fire attacks would bring light to the
     battlefield but also death upon them.
-    The epic war lasted eighteen years but Davion and his Dinasty of fire prevailed in the end.
+    The epic war lasted eighteen hundred years but Davion and his Dinasty of fire prevailed in the end.
     He entitled himself as the king of titans, humans and fire mages,
 but he banished his creators, the titans from the fire Dinasty and Satoric Empire,
 and restored order and peace between them.
@@ -87,7 +99,7 @@ transforms himself into a dragon.
 \n
 The result conflict is known as Davomachy and marks the
 ending of %s Era and the beginning of a new era.</string>
-<string name="prologue_part3">
+    <string name="prologue_part3">
 \n\n
 In the lands of Satoric Empire, Augustus appear as a gift from %s.
     God of enlightment is thinking that he has failed to
@@ -100,10 +112,10 @@ and shortly after, he became the Emperor of the %s Empire shortly after
     by the name of Davomachy killed by a titan.
 Humans worship Davion now and they are not considering
 Augustus to be worthy of worshiping, yet he is their Emperor, their ruler.
-Still, Augustus begins to prove that he is worthy due to his preachings and 
+Still, Augustus begins to prove that he is worthy due to his preachings and
     ability for peace, but he also proved himself by healing humans,
 and he also resurrected Taozen from the dead, which was killed by his brother Kain
-    in order to asure his reign to the throne of %s Empire 50 years ago.
+    in order to asure his reign to the throne of %s Empire 500 years ago.
 \n\n
 Awakening Portal is not a nice place though, some
 of the portal effect\'s are: to turn into a black hole
@@ -113,7 +125,7 @@ offers the chance to travel through the universe with the body and the mind,
 but the traveler will have the body in two places, in portal and where he decides to travel.
 Till now only one being survived in the portal, a fire mage named Davion.
 \n\n</string>
-<string name="prologue_part4">
+    <string name="prologue_part4">
 Davion helped in the beginnings, the blacksmiths to forge
 swords enchanted by the wild fire from the
 Aldebaran - the giant star located 65 light years away
@@ -128,11 +140,11 @@ all of them died in their own blackholes.
 Unfortunately, Fire Mages along with Davion slowly forgot
 their maker (%s) as their pride led to evil desires,
 So they turned into beings driven by hunger of power
-as they assasinated their great Emperor Augustus in 63-AT,
+as they assasinated their great Emperor Augustus in 630-AT,
 When Humans saw all of this, they turn their faith
 to their creator %s.
 \n\n</string>
-<string name="prologue_part5">
+    <string name="prologue_part5">
 Davion fears that Augustus could resurrect his father, Pyromi
 so he make plans with the most powerful between
 fire mages to assasinate Augustus in order
@@ -154,7 +166,7 @@ immortality, also it could destroy any fire sword made by Davion
 but only a few would know the truth …
 Davion tried to hold the %s\'s sword but his hand was evaporated.
 \n</string>
-<string name="prologue_part6">Since Davion is not worthy to wield %s\'s sword
+    <string name="prologue_part6">Since Davion is not worthy to wield %s\'s sword
 any humans believed that the chosen one for the swords
 could have been Augustus, gossips
 about Augustus being brought back to life are circulating but
@@ -195,7 +207,7 @@ Taozen respond: "We shall meet again, and then you will be awoke from this dream
 but Davion chose to ignore him again and continue his quest in finding the sword trainer.
 
 </string>
-<string name="prologue_part6c">Taozen thinks of a plan to bring Augustus back to life by
+    <string name="prologue_part6c">Taozen thinks of a plan to bring Augustus back to life by
 going back in time … passing through the Awakening portal
 can help him to do this but he can also lose
 his life trying to do so, but another problem is that if Augustus will
@@ -209,7 +221,7 @@ considerated special because during the Pyromachy,
 the war against Titans, he fought alongside
 firemages and proved himself worthy in battle.</string>
 
-<string name="prologue_bottom">*AT - After Titans/Demigods Era *BT - Before Titans/Demigods Era *ET - Titans Era</string>
+    <string name="prologue_bottom">*AT - After Titans/Demigods Era *BT - Before Titans/Demigods Era *ET - Titans Era</string>
     <!--Main activity buttons-->
     <string name="new_game_button">New Game</string>
     <string name="sale_button">Sale on Now!</string>
