@@ -35,26 +35,56 @@
                 android:textStyle="bold"
                 android:layout_marginLeft="15dp"
                 android:textSize="58sp"
-                android:layout_below="@id/titan"/>
+                android:layout_below="@id/titan"
+                android:layout_marginStart="15dp" />
             <TextView
                 android:id="@+id/prologuePart1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="30dp"
                 android:layout_marginLeft="35dp"
-                android:text="@string/text_first_layout"
+                android:text="@string/prologue_part1"
                 android:textAlignment="center"
                 android:layout_marginTop="32dp"
                 android:layout_below="@id/titan"
                 android:layout_marginBottom="10dp"
+                android:textSize="@dimen/activity_main_text_view_text_size"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="35dp" />
+            <ImageView
+                android:id="@+id/convertfire"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingBottom="20dp"
+                android:layout_below="@id/prologuePart1"
+                android:src="@drawable/convertfire"/>
+            <TextView
+                android:id="@+id/prologuePart1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="35dp"
+                android:text="@string/prologue_part1b"
+                android:textAlignment="center"
+                android:layout_marginTop="32dp"
+                android:layout_below="@id/convertfire"
+                android:layout_marginBottom="10dp"
                 android:textSize="@dimen/activity_main_text_view_text_size" />
+
             <Button
-                android:id="@+id/continueBtnFromPrologue1"
+                android:id="@+id/continueBtnFromPrologue1No"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/prologuePart1b"
+                android:text="No, i didn\'t"/>
+            <Button
+                android:id="@+id/continueBtnFromPrologue1Yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_below="@id/prologuePart1"
-                android:text="continue"/>
+                android:layout_below="@id/continueBtnFromPrologue1No"
+                android:text="Yes, i\'ve been drinking the last dragon\'s blood!'"/>
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

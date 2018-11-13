@@ -49,7 +49,7 @@ public class GameMenuActivity
 
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
-        menuMusic = MediaPlayer.create(GameMenuActivity.this, R.raw.menusong);
+        menuMusic = MediaPlayer.create(GameMenuActivity.this, R.raw.medici);
         if (getApplicationContext() != null) {
             Typeface typefaceBoldItalic = Typeface.createFromAsset
                     (getAssets(), "fonts/ACaslonPro-BoldItalic.otf");

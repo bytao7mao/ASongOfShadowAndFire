@@ -1,8 +1,6 @@
 package com.example.tao.myapplication;
 
-import android.content.Intent;
 import android.content.res.Resources;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -10,9 +8,6 @@ import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
-import android.text.Spannable;
-import android.text.SpannableString;
-import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -43,6 +38,7 @@ public class Prologue extends AppCompatActivity {
     String god_name_for_part_6 = "";
 
     @BindView(R.id.prologuePart1)TextView prologuePart1;
+    @BindView(R.id.prologuePart1b)TextView prologuePart1b;
     @BindView(R.id.firstLetter)TextView firstLetter;
     @BindView(R.id.titlePrologue)TextView titlePrologue;
     @BindView(R.id.prologue_part2)TextView prologuePart2;
@@ -51,7 +47,8 @@ public class Prologue extends AppCompatActivity {
     @BindView(R.id.prologue_part5)TextView prologuePart5;
     @BindView(R.id.prologue_part6)TextView prologuePart6;
     @BindView(R.id.vf_prologue)ViewFlipper viewFlipperPrologue;
-    @BindView(R.id.continueBtnFromPrologue1)Button continueToPrologu2Btn;
+    @BindView(R.id.continueBtnFromPrologue1No)Button continueToPrologu2Btn;
+    @BindView(R.id.continueBtnFromPrologue1Yes)Button continueToPrologu2BtnB;
     @BindView(R.id.continueBtnFromPrologue2)Button continueToPrologue3Btn;
     @BindView(R.id.continueBtnFromPrologue3)Button continueToPrologue4Btn;
     @BindView(R.id.continueBtnFromPrologue4)Button continueToPrologue5Btn;
@@ -91,8 +88,8 @@ public class Prologue extends AppCompatActivity {
         if (titan!=null){
             //titan: 2,4,5,6,7
             //username: 1,3
-            god_name = res.getString(R.string.text_first_layout,
-                    userName, titan, userName, titan, titan, titan, titan);
+            god_name = res.getString(R.string.prologue_part1,
+                    titan, titan, titan, titan);
             god_name2 = res.getString(R.string.prologue_part2,
                     userName, userName, userName, titan, titan, titan);
             titan_demigod_2b = res.getString(R.string.prologue_part2b,
@@ -100,8 +97,8 @@ public class Prologue extends AppCompatActivity {
         } else if (demigod!=null){
             //demigod: 2,4,5,6,7
             //username: 1,3
-            god_name = res.getString(R.string.text_first_layout,
-                    userName, demigod, userName, demigod, demigod, demigod, demigod);
+            god_name = res.getString(R.string.prologue_part1,
+                    demigod, demigod, demigod, demigod);
             god_name2 = res.getString(R.string.prologue_part2,
                     userName, userName, userName, demigod, demigod, demigod);
             titan_demigod_2b = res.getString(R.string.prologue_part2b,
@@ -167,6 +164,7 @@ public class Prologue extends AppCompatActivity {
             firstLetter.setTypeface(typefaceSimpleItalic);
             titlePrologue.setTypeface(typefaceBoldItalic);
             prologuePart1.setTypeface(typefaceSimpleItalic);
+            prologuePart1b.setTypeface(typefaceSimpleItalic);
             prologuePart2.setTypeface(typefaceSimpleItalic);
             prologuePart3.setTypeface(typefaceSimpleItalic);
             prologuePart4.setTypeface(typefaceSimpleItalic);
@@ -190,6 +188,18 @@ public class Prologue extends AppCompatActivity {
         continueToPrologu2Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                prologuePart1.startAnimation(slideupAnim);
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        viewFlipperPrologue.setDisplayedChild(1);
+                    }
+                },1000);
+            }
+        });
+        continueToPrologu2BtnB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 prologuePart1.startAnimation(slideupAnim);
                 handler.postDelayed(new Runnable() {
                     @Override
