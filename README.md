@@ -7,7 +7,7 @@
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 <br/>
 
-# A Song Of Shadow And Fire
+# A Song Of Shadow And Fire (alternative name: "A song of Despair and Sorrow")
 
 The project is using the following libraries: Butterknife, droidsonroids.
 
