@@ -77,7 +77,7 @@ public class Prologue extends AppCompatActivity {
         backgroundMusic.start();
         //getting bundle from last main menu
         Bundle lastIntent = getIntent().getExtras();
-        if(lastIntent != null){
+        if(lastIntent != null) {
             userName = lastIntent.getString(NAME);
             titan = lastIntent.getString(TITAN);
             demigod = lastIntent.getString(DEMIGOD);
@@ -145,11 +145,7 @@ public class Prologue extends AppCompatActivity {
             repl3 = repl3.replaceAll(demigod, "<font color='red'>"+demigod+"</font>");
             prologuePart2b.setText(Html.fromHtml(repl3));
         }
-
-
-
-
-
+        
         prologuePart3.setText(god_name_for_part_3);
         prologuePart4.setText(god_name_for_part_4);
         prologuePart5.setText(god_name_for_part_5);
@@ -273,10 +269,7 @@ public class Prologue extends AppCompatActivity {
                         //TODO: add new intent
                     }
                 },1000);
-
             }
         });
-
     } //onCreate
-
 }

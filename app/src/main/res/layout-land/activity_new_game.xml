@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".NewGameActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        app:srcCompat="@drawable/landtimeportal"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/chooseCharTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titansChoice"
+        android:layout_alignStart="@+id/titansChoice"
+        android:layout_below="@+id/welcomeMsg"
+        android:background="#212121"
+        android:padding="10dp"
+        android:text="Choose your character"
+        android:textColor="@color/colorAccent"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/welcomeMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/userName"
+        android:layout_alignBottom="@+id/userName"
+        android:layout_toLeftOf="@+id/demiGodChoice"
+        android:layout_toStartOf="@+id/demiGodChoice"
+        android:background="#212121"
+        android:padding="10dp"
+        android:text="Hello "
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/welcomeMsg"
+        android:layout_toRightOf="@+id/welcomeMsg"
+        android:background="#212121"
+        android:padding="10dp"
+        android:text="name "
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="#212121"
+        android:textColor="@color/colorAccent"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/titansChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/chooseCharTv"
+        android:background="#212121"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="33dp"
+        android:text="TITAN" />
+
+    <Button
+        android:id="@+id/demiGodChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/backBtn"
+        android:background="#212121"
+        android:textColor="@color/colorAccent"
+        android:layout_alignRight="@+id/backBtn"
+        android:layout_alignTop="@+id/titansChoice"
+        android:text="DEMIGOD" />
+
+
+
+</RelativeLayout>

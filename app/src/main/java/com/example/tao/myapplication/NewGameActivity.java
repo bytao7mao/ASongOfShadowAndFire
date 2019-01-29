@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -18,11 +19,14 @@ import butterknife.ButterKnife;
  * Created by taoLen on 9/29/2018.
  */
 
-public class NewGameActivity extends AppCompatActivity {
+public class NewGameActivity
+        extends AppCompatActivity
+        implements View.OnClickListener {
+
     @BindView(R.id.backBtn)Button backButton;
     @BindView(R.id.titansChoice)Button titanChoice;
     @BindView(R.id.userName)TextView tvUserName;
-    @BindView(R.id.demiGodChoice)TextView demiGodChoice;
+    @BindView(R.id.demiGodChoice)Button demiGodChoice;
 
     String userName = "";
     private static final String NAME = "userName";
@@ -43,11 +47,28 @@ public class NewGameActivity extends AppCompatActivity {
             userName = lastIntent.getString(NAME);
         }
         tvUserName.setText(userName);
-
-        configureBackButton();
-        configureDemiGodOption();
-        configureTitanOption();
+        backButton.setOnClickListener(this);
+        titanChoice.setOnClickListener(this);
+        demiGodChoice.setOnClickListener(this);
     }
+    //---[for LANDSCAPE mode]--->
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        Log.i("GameMenuActivityTAO", "onRestoreInstanceState() " + userName);
+
+        if (savedInstanceState!=null){
+            tvUserName.setText(savedInstanceState.getString("username"));
+        }
+    }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        Log.i("GameMenuActivityTAO", "onSaveInstanceStace() " + userName);
+
+        outState.putString("username", userName);
+    }
+    //---[LANDSCAPE mode]---> END
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -65,35 +86,49 @@ public class NewGameActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+    //[CLICK LISTENER in SWITCH MODE] --->
+    @Override
+    public void onClick(View view) {
+        String activity = null;
+        switch (view.getId()){
+            case R.id.backBtn:
+                activity = "back button";
+                Log.i(NewGameActivity.class.getSimpleName() +"", activity);
+                configureBackButton();
+                break;
+            case R.id.titansChoice:
+                activity = "titan choice";
+                Log.i(NewGameActivity.class.getSimpleName() +"", activity);
+                configureTitanOption();
+                break;
+            case R.id.demiGodChoice:
+                activity = "demigod choice";
+                Log.i(NewGameActivity.class.getSimpleName() +"", activity);
+                configureDemiGodOption();
+                break;
+            default:
+                activity = "default";
+                Log.i(NewGameActivity.class.getSimpleName() +"", activity);
+                break;
+        }
+    }
+    //[CLICK LISTENER in SWITCH MODE] ---> END
+    //-----------------------------------------
+    //[METHODS for buttons] --- >
     private void configureTitanOption(){
-        titanChoice.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(NewGameActivity.this, Prologue.class);
-                intent.putExtra(NAME, userName);
-                intent.putExtra(TITAN, titan);
-                startActivity(intent);
-            }
-        });
+        Intent intent = new Intent(NewGameActivity.this, Prologue.class);
+        intent.putExtra(NAME, userName);
+        intent.putExtra(TITAN, titan);
+        startActivity(intent);
     }
     private void configureDemiGodOption(){
-        demiGodChoice.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(NewGameActivity.this, Prologue.class);
-                intent.putExtra(NAME, userName);
-                intent.putExtra(DEMIGOD, demigod);
-                startActivity(intent);
-            }
-        });
+        Intent intent = new Intent(NewGameActivity.this, Prologue.class);
+        intent.putExtra(NAME, userName);
+        intent.putExtra(DEMIGOD, demigod);
+        startActivity(intent);
     }
-
     private void configureBackButton(){
-        backButton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                finish();
-            }
-        });
+        finish();
     }
+    //[METHODS for buttons] --- > END
 }

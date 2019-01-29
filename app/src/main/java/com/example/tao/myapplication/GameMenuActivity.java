@@ -53,6 +53,9 @@ public class GameMenuActivity
         }
         menuMusic.start();
         menuMusic.setLooping(true);
+
+        startGame.setOnClickListener(this);
+        optionsBtn.setOnClickListener(this);
     }
 
 
@@ -71,7 +74,7 @@ public class GameMenuActivity
             case R.id.optionsBtn:
                 btnName = "Options Btn clicked";
                 Log.d(GameMenuActivity.class.getSimpleName() + "", btnName);
-//                startActivity(new Intent(GameMenuActivity.this, OptionsActivity.class));
+                //startActivity(new Intent(GameMenuActivity.this, OptionsActivity.class));
                 optionsBtnStart();
                 break;
             default:
